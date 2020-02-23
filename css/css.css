@@ -1,0 +1,163 @@
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Arial; 
+}
+
+.padding-size {
+  padding: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main-header {
+  width: 100%;
+  padding: 50px;
+  background-color: #445162;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.main-header:after {
+  content: "";
+  display: block;
+  widows: 100%;
+  clear: both;
+}
+
+.main-header-wrp {
+  width: 400px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  float: left;
+}
+
+.main-header-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0;
+} 
+
+.main-header-list {
+  margin: 0;
+  list-style: none;
+  padding: 0 0 0 25px;
+}
+
+.main-header-list li {
+  position: relative;
+}
+
+.main-header-list li:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -1px;
+  left: -26px;
+  background-image: url('../img/kisspng-check-mark-clip-art-check-mark-gif-5aa8e3832559b5.227378201521017731153.png');
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.main-header-photo {
+ display: block;
+  width: 470px;
+  min-height: 215px;
+  float: right;
+  background-color: #fff;
+  border: 1px solid red;
+}
+
+.about-product {
+  padding: 50px;
+}
+
+.about-product:after {
+  content: "";
+  clear: both;
+  display: block;
+  width: 100%;
+}
+
+.about-product-wrp {
+  width: 60%;
+  min-height: 200px;
+  border: 1px solid #000;
+  float: left;
+}
+
+.about-product-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.about-product video {
+ display: block;
+ width: 400px;
+ min-height: 215px;
+ float: right;
+ background-color: #fff;
+ border: 1px solid red;
+}
+
+.dignity {
+  padding: 50px;
+}
+
+.dignity:after {
+  content: "";
+  clear: both;
+  display: block;
+  width: 100%;
+}
+
+.dignity-title {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.dignity-list-left {
+  float: left;
+  width: 46%;
+}
+
+.dignity-list-right {
+  float: right;
+  width: 46%;
+}
+
+.dignity ul {
+  margin: 0;
+  list-style: none;
+  padding: 15px 0 0 25px;
+}
+
+.dignity li {
+  position: relative;
+  margin-top: 20px;
+}
+
+.dignity li:before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: -40px;
+  background-image: url('../img/kisspng-christian-universalism-christianity-universalist-c-5c191e9f7f9257.9417110315451501115225.png');
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
